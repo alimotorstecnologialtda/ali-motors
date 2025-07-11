@@ -128,9 +128,9 @@ function App() {
           </div>
         </div>
         <nav className="header-nav">
-          <a href="#">Início</a>
-          <a href="#">Requisitos</a>
-          <a href="#">FAQ</a>
+          <a href="#" style={{ color: '#FFD700', fontWeight: 700, fontSize: '1.05em', letterSpacing: 0.5, textShadow: '0 1px 4px #0002', margin: '0 8px' }}>Início</a>
+          <a href="#" style={{ color: '#FFD700', fontWeight: 700, fontSize: '1.05em', letterSpacing: 0.5, textShadow: '0 1px 4px #0002', margin: '0 8px' }}>Requisitos</a>
+          <a href="#" style={{ color: '#FFD700', fontWeight: 700, fontSize: '1.05em', letterSpacing: 0.5, textShadow: '0 1px 4px #0002', margin: '0 8px' }}>FAQ</a>
         </nav>
       </header>
       <main>
@@ -290,7 +290,9 @@ function App() {
                 <div className="kit-modern-selo">
                   <span className="kit-modern-selo-icon">🔒</span> <b>+ de 95% de satisfação</b> &nbsp;|&nbsp; <span style={{color: '#16a34a'}}>Compra segura</span>
                 </div>
-                <button className="kit-finish-btn kit-modern-btn">QUERO ATIVAR E COMEÇAR!</button>
+                <a href="https://go.pepperpay.com.br/brapm" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', width: '100%', display: 'block', marginTop: 12}}>
+                  <button className="kit-finish-btn kit-modern-btn" type="button" style={{width: '100%'}}>QUERO ATIVAR E COMEÇAR!</button>
+                </a>
               </div>
             </div>
           ) : null}
