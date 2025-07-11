@@ -271,7 +271,7 @@ function App() {
             <div className="kit-card">
               <div className="kit-subtitle" style={{fontWeight: 700, color: '#C92323', fontSize: '1.08rem', marginBottom: 8}}>Kit do Entregador Obrigatório</div>
               <div className="kit-title"><span style={{fontSize: '1.5em', color: '#C92323', marginRight: 8}}>🚚</span>Resumo da Ativação</div>
-              <img src={kitImg} alt="Kit do Entregador" className="kit-img" style={{width: '100%', maxWidth: 220, margin: '0 auto 18px auto', display: 'block', borderRadius: 12}} />
+              <img src={kitImg} alt="Kit do Entregador" className="kit-img" style={{width: '100%', maxWidth: 360, margin: '0 auto 18px auto', display: 'block', borderRadius: 12}} />
               <div className="kit-includes-title">O que está incluso no Kit:</div>
               <ul className="kit-includes-list">
                 <li><span className="kit-check">✔</span> Par de luvas AliExpress oficial</li>
