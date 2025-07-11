@@ -269,29 +269,25 @@ function App() {
             </form>
           ) : showKit ? (
             <div className="kit-card">
-              <div className="kit-subtitle" style={{fontWeight: 700, color: '#C92323', fontSize: '1.08rem', marginBottom: 8}}>Kit do Entregador Obrigatório</div>
-              <div className="kit-title"><span style={{fontSize: '1.5em', color: '#C92323', marginRight: 8}}>🚚</span>Resumo da Ativação</div>
+              <div className="kit-top-title" style={{fontWeight: 900, color: '#C92323', fontSize: '1.12rem', marginBottom: 8, textAlign: 'center', width: '100%'}}>Kit de ativação de Cadastro Obrigatório</div>
               <img src={kitImg} alt="Kit do Entregador" className="kit-img" style={{width: '100%', maxWidth: 360, margin: '0 auto 18px auto', display: 'block', borderRadius: 12}} />
-              <div className="kit-includes-title">O que está incluso no Kit:</div>
-              <ul className="kit-includes-list">
-                <li><span className="kit-check">✔</span> Par de luvas AliExpress oficial</li>
-                <li><span className="kit-check">✔</span> Capacete</li>
-                <li><span className="kit-check">✔</span> Colete</li>
-                <li><span className="kit-check">✔</span> Carteirinha oficial de identificação do motorista entregador</li>
-              </ul>
-              <div className="kit-guarantee">
-                <span className="kit-guarantee-icon">⭐</span>
-                <b>Garantia de 30 dias</b><br/>
-                <span className="kit-guarantee-desc">Se não ficar satisfeito, devolvemos 100% do valor pago</span>
-              </div>
-              <div className="kit-section" style={{marginTop: 18, width: '100%', background: 'none', padding: 0, textAlign: 'left'}}>
-                <b>Kit do Entregador Obrigatório</b>
-                <div className="kit-desc">Pagamento único para receber seu kit e ativar sua conta na AliExpress Delivery</div>
-              </div>
-              <div className="kit-price-box">
-                <div className="kit-price-label">Valor:</div>
-                <div className="kit-price">R$ 99,99</div>
-                <button className="kit-finish-btn">Ativar cadastro agora!</button>
+              <div className="kit-modern-box">
+                <div className="kit-modern-title"><span style={{fontSize: '1.2em', color: '#16a34a', marginRight: 4}}>✅</span> Tudo isso por apenas:</div>
+                <div className="kit-modern-price">R$ 99,99 <span className="kit-modern-price-desc">(pagamento único)</span></div>
+                <ul className="kit-modern-benefits">
+                  <li><span className="kit-modern-icon">🔒</span> Ativação 100% segura e garantida</li>
+                  <li><span className="kit-modern-icon">💥</span> Kit completo com luvas, capacete, colete e carteirinha oficial</li>
+                  <li><span className="kit-modern-icon">⭐</span> Garantia de satisfação: ou você ama, ou seu dinheiro de volta!</li>
+                </ul>
+                <div className="kit-modern-gatilhos">
+                  <span className="kit-modern-gatilho">⏳ Vagas limitadas para ativação neste valor.</span><br/>
+                  <span className="kit-modern-gatilho">⏰ Oferta válida até hoje às 23h59.</span><br/>
+                  <span className="kit-modern-gatilho">🏆 Kit aprovado por mais de 10.000 entregadores.</span>
+                </div>
+                <div className="kit-modern-selo">
+                  <span className="kit-modern-selo-icon">🔒</span> <b>+ de 95% de satisfação</b> &nbsp;|&nbsp; <span style={{color: '#16a34a'}}>Compra segura</span>
+                </div>
+                <button className="kit-finish-btn kit-modern-btn">QUERO ATIVAR E COMEÇAR!</button>
               </div>
             </div>
           ) : null}
