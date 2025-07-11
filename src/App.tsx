@@ -291,7 +291,7 @@ function App() {
               <div className="kit-price-box">
                 <div className="kit-price-label">Valor:</div>
                 <div className="kit-price">R$ 99,99</div>
-                <button className="kit-finish-btn">Finalizar cadastro agora!</button>
+                <button className="kit-finish-btn">Ativar cadastro agora!</button>
               </div>
             </div>
           ) : null}
