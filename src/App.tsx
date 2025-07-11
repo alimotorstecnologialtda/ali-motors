@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import kitImg from './assets/img/kit.png';
+import aliLogo from './assets/img/ali-logo.png';
+import cadastroImg from './assets/img/cadastro.png';
 
 const questions = [
   {
@@ -119,7 +121,7 @@ function App() {
     <div className="main-bg">
       <header className="header">
         <div className="header-logo">
-          <div className="logo-a">A</div>
+          <img src={aliLogo} alt="AliExpress Logo" className="logo-a" style={{width: 32, height: 32, borderRadius: 6, objectFit: 'cover', background: '#fff'}} />
           <div className="header-title">
             <div className="header-main">Entregador Parceiro</div>
             <div className="header-sub">AliExpress Delivery</div>
@@ -133,6 +135,7 @@ function App() {
       </header>
       <main>
         <h1 className="main-title">Ganhe dinheiro sendo um <span>Entregador Parceiro</span></h1>
+        <img src={cadastroImg} alt="Cadastro" className="main-cadastro-img" style={{width: '100%', maxWidth: 340, margin: '12px auto 10px auto', display: 'block'}} />
         <p className="main-sub">Junte-se ao maior programa de entregadores do mundo e transforme seu tempo em renda extra</p>
         <div className="benefits">
           <div className="benefit-card">
@@ -284,10 +287,10 @@ function App() {
               <div className="kit-section" style={{marginTop: 18, width: '100%', background: 'none', padding: 0, textAlign: 'left'}}>
                 <b>Kit do Entregador Obrigatório</b>
                 <div className="kit-desc">Pagamento único para receber seu kit e ativar sua conta na AliExpress Delivery</div>
+              </div>
+              <div className="kit-price-box">
                 <div className="kit-price-label">Valor:</div>
                 <div className="kit-price">R$ 99,99</div>
-              </div>
-              <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: 18}}>
                 <button className="kit-finish-btn">Finalizar cadastro agora!</button>
               </div>
             </div>
