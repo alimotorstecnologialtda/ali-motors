@@ -135,7 +135,7 @@ function App() {
       </header>
       <main>
         <h1 className="main-title">Ganhe dinheiro sendo um <span>Entregador Parceiro</span></h1>
-        <img src={cadastroImg} alt="Cadastro" className="main-cadastro-img" style={{width: '100%', maxWidth: 340, margin: '12px auto 10px auto', display: 'block'}} />
+        <img src={cadastroImg} alt="Cadastro" className="main-cadastro-img" style={{width: '100%', maxWidth: 280, margin: '12px auto 10px auto', display: 'block'}} />
         <p className="main-sub">Junte-se ao maior programa de entregadores do mundo e transforme seu tempo em renda extra</p>
         <div className="benefits">
           <div className="benefit-card">
