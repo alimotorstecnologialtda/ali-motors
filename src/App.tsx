@@ -273,7 +273,10 @@ function App() {
               <img src={kitImg} alt="Kit do Entregador" className="kit-img" style={{width: '100%', maxWidth: 360, margin: '0 auto 18px auto', display: 'block', borderRadius: 12}} />
               <div className="kit-modern-box">
                 <div className="kit-modern-title"><span style={{fontSize: '1.2em', color: '#16a34a', marginRight: 4}}>✅</span> Tudo isso por apenas:</div>
-                <div className="kit-modern-price">R$ 99,99 <span className="kit-modern-price-desc">(pagamento único)</span></div>
+                <div className="kit-modern-price">R$ 99,99 à vista no pix <span className="kit-modern-price-desc">(pagamento único)</span></div>
+                <div className="kit-modern-payment-options" style={{marginBottom: 8, marginTop: 2, textAlign: 'center', width: '100%'}}>
+                  <div style={{color: '#3c18db', fontWeight: 700, fontSize: '1.05rem'}}>12x de R$ 11,32 no cartão de crédito</div>
+                </div>
                 <ul className="kit-modern-benefits">
                   <li><span className="kit-modern-icon">🔒</span> Ativação 100% segura e garantida</li>
                   <li><span className="kit-modern-icon">💥</span> Kit completo com luvas, capacete, colete e carteirinha oficial</li>
